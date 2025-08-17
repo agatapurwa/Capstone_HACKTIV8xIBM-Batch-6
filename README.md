@@ -16,35 +16,39 @@ https://www.bi.go.id/id/statistik/indikator/bi-rate.aspx
 Data Inflasi:
 https://www.bi.go.id/id/statistik/indikator/data-inflasi.aspx
 
-Dataset terdiri dari ketiga tambel di atas, dengan rentang 1 Januari 2017 - 31 Desember 2024. Kemudian diupload ke google colab dalam folder "dataset"
+Dataset terdiri dari ketiga tabel di atas, dengan rentang 1 Januari 2017 - 31 Desember 2024. Kemudian diupload ke google colab dalam folder "dataset"
 
 # Insight and Findings
 Analisis Tren
-FED Rate: Naik 2017–2019, turun drastis 2020–2021 akibat pandemi, lalu melonjak 2022–2024 karena inflasi global.
-BI Rate: Stabil di awal, turun saat pandemi, kemudian naik signifikan sejak 2022 mengikuti arah FED Rate.
-Inflasi Indonesia: Turun hingga 2021, melonjak 2022 (4,95%), lalu kembali terkendali 2023–2024.
+~FED Rate: Naik 2017–2019, turun drastis 2020–2021 akibat pandemi, lalu melonjak 2022–2024 karena inflasi global.
+
+~BI Rate: Stabil di awal, turun saat pandemi, kemudian naik signifikan sejak 2022 mengikuti arah FED Rate.
+
+~Inflasi Indonesia: Turun hingga 2021, melonjak 2022 (4,95%), lalu kembali terkendali 2023–2024.
 
 Analisis Hubungan
-FED Rate ↔ BI Rate: Korelasi kuat (0,78), BI Rate cenderung mengikuti FED.
-BI Rate ↔ Inflasi: Korelasi sedang-kuat (0,65), menunjukkan BI Rate efektif sebagai alat pengendali inflasi.
-FED Rate ↔ Inflasi: Korelasi lemah (0,32), inflasi Indonesia lebih dipengaruhi faktor domestik.
+~FED Rate ↔ BI Rate: Korelasi kuat (0,78), BI Rate cenderung mengikuti FED.
+
+~BI Rate ↔ Inflasi: Korelasi sedang-kuat (0,65), menunjukkan BI Rate efektif sebagai alat pengendali inflasi.
+
+~FED Rate ↔ Inflasi: Korelasi lemah (0,32), inflasi Indonesia lebih dipengaruhi faktor domestik.
 
 Insight Utama
 BI Rate sangat responsif terhadap pergerakan FED Rate dan berperan penting dalam mengendalikan inflasi domestik. Inflasi Indonesia lebih dipengaruhi kebijakan moneter lokal daripada langsung oleh FED Rate.
 
 # AI Support Explanation
 LLM (Large Language Model) digunakan untuk:
-Menghasilkan insight otomatis dari data FED Rate, BI Rate, dan Inflasi Indonesia.
-Melakukan summarization tren ekonomi agar mudah dipahami.
-Menyusun rekomendasi kebijakan moneter & fiskal yang berbasis data.
+1. Menghasilkan insight otomatis dari data FED Rate, BI Rate, dan Inflasi Indonesia.
+2. Melakukan summarization tren ekonomi agar mudah dipahami.
+3. Menyusun rekomendasi kebijakan moneter & fiskal yang berbasis data.
 
 Manfaat AI:
-Mengubah data kompleks menjadi narasi yang jelas.
-Mendukung pengambilan keputusan strategis.
-Mempercepat proses analisis & dokumentasi.
+1. Mengubah data kompleks menjadi narasi yang jelas.
+2. Mendukung pengambilan keputusan strategis.
+3. Mempercepat proses analisis & dokumentasi.
 
-Alasan Menggunakan IBM Granite 3.3-8B Instruct
-Instruction-tuned → akurat ikuti arahan analisis
-Efisien (8B) → cocok untuk Colab
-Output profesional & cepat
-Dukungan enterprise dari IBM
+Alasan Menggunakan IBM Granite 3.3-8B Instruct: 
+1. Instruction-tuned → akurat ikuti arahan analisis
+2. Efisien (8B) → cocok untuk Colab
+3. Output profesional & cepat
+4. Dukungan enterprise dari IBM
