@@ -20,6 +20,7 @@ Dataset terdiri dari ketiga tabel di atas, dengan rentang 1 Januari 2017 - 31 De
 
 # Insight and Findings
 Analisis Tren
+
 ~FED Rate: Naik 2017–2019, turun drastis 2020–2021 akibat pandemi, lalu melonjak 2022–2024 karena inflasi global.
 
 ~BI Rate: Stabil di awal, turun saat pandemi, kemudian naik signifikan sejak 2022 mengikuti arah FED Rate.
@@ -27,6 +28,7 @@ Analisis Tren
 ~Inflasi Indonesia: Turun hingga 2021, melonjak 2022 (4,95%), lalu kembali terkendali 2023–2024.
 
 Analisis Hubungan
+
 ~FED Rate ↔ BI Rate: Korelasi kuat (0,78), BI Rate cenderung mengikuti FED.
 
 ~BI Rate ↔ Inflasi: Korelasi sedang-kuat (0,65), menunjukkan BI Rate efektif sebagai alat pengendali inflasi.
