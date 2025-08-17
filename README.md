@@ -16,7 +16,7 @@ https://www.bi.go.id/id/statistik/indikator/bi-rate.aspx
 Data Inflasi:
 https://www.bi.go.id/id/statistik/indikator/data-inflasi.aspx
 
-Dataset terdiri dari ketiga tambel di atas, dengan rentang 1 Januari 2017 - 31 Desember 2024. Kemudian diupload ke google colab dalam folde "dataset"
+Dataset terdiri dari ketiga tambel di atas, dengan rentang 1 Januari 2017 - 31 Desember 2024. Kemudian diupload ke google colab dalam folder "dataset"
 
 # Insight and Findings
 Analisis Tren
