@@ -16,6 +16,8 @@ https://www.bi.go.id/id/statistik/indikator/bi-rate.aspx
 Data Inflasi:
 https://www.bi.go.id/id/statistik/indikator/data-inflasi.aspx
 
+Dataset terdiri dari ketiga tambel di atas, dengan rentang 1 Januari 2017 - 31 Desember 2024. Kemudian diupload ke google colab dalam folde "dataset"
+
 # Insight and Findings
 Analisis Tren
 FED Rate: Naik 2017–2019, turun drastis 2020–2021 akibat pandemi, lalu melonjak 2022–2024 karena inflasi global.
